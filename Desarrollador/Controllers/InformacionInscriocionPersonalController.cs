@@ -75,7 +75,7 @@ namespace Desarrollador.Controllers
 
 
         public string GuardarInfoPersonal(string TipoEstudiante, string Modalidad, string Sede, string Programa, string Periodo, string CedulaAspirante)
-        {
+        { 
             string estado = ComandoSql.GuardarInfoPersonal(TipoEstudiante, Modalidad, Sede, Programa, Periodo, CedulaAspirante);
             return estado;
         }
