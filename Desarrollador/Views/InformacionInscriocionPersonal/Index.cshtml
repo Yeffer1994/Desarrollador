@@ -1,0 +1,308 @@
+﻿@{
+    Layout = null;
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<script src='https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js'></script>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+<h2>
+    <label style="position: relative;top: 20px;left: 30px;">Admisiones</label>
+</h2>
+<div class="row col-12">
+    <div class="col-2">
+        <hr style="color: red;height: 3px;"></hr>
+    </div>
+    <div class="col-10  ">
+        <hr style="color: blue;height: 3px;"></hr>
+    </div>
+</div>
+<label style="position: relative;top: -17px;left: 10px;">Sistema Academico - SAMI 2.0</label>
+<br />
+<label style="color:red;position: relative;left: 60px;top: -10px;">Opciones</label>
+<div class="row col-12" style="padding: 20px;position: relative;top: -19px;">
+    <div class="col-2">
+        <button class="btn" onclick="Gudarinformacion();">
+            <img src="https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Save-icon.png" width="50px">
+        </button>
+        <button class="btn">
+            <img src="https://icons.iconarchive.com/icons/hopstarter/button/256/Button-Close-icon.png" width="50px">
+        </button>
+        <br />
+        <label style="position: relative;left: 10px;">Guardar</label>
+        <label style="position: relative;left: 27px;">Cancelar</label>
+    </div>
+    <div class="col-8">
+        <h3><span>Diligencie los campos requeridos para poder continuar con los demas formularios</span></h3>
+    </div>
+</div>
+<div class="row col-12" style="padding: 20px;position: relative;top: -50px;">
+    <div class="col-2">
+        <button type="button" class="btn btn-outline-primary btn-sm m-1" id="InformacionInscrip" onclick="InformacionInscripcion();" style="width: 90%;height: 130%;position: relative;top: 6px;">1. Información de Inscripción</button>
+    </div>
+    <div class="col-2">
+        <button type="button" class="btn btn-outline-primary btn-sm m-1" id="InformacionPerson" onclick="InformacionPersonal();" style="width: 90%;height: 130%;position: relative;top: 6px;">2. Información Personal</button>
+    </div>
+</div>
+
+<div class="row col-12" style="padding: 2%;position: relative;top: -30px; display:none" id="PanelInformacionPersonal">
+    <div class="col-md-4 card p-3" style="width: 100%;">
+        <h2 class="text-center text-info">Informacion Personal</h2>
+        <div class="text-danger"></div>
+        <div class="row col-12">
+            <div class="col-2">
+                <label class="control-label"><b>Tipo de aspirante </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-6">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="rdbNuevo" value="option1">
+                    <label class="form-check-label" for="rdbNuevo">Nuevo</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="rdbReingreso" value="option2">
+                    <label class="form-check-label" for="rdbReingreso">rdbReingreso</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="rdbTExterna" value="option3">
+                    <label class="form-check-label" for="rdbTExterna">Transferencia externa</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="rdbInterna" value="option3">
+                    <label class="form-check-label" for="rdbInterna">Transferencia Interna</label>
+                </div>
+            </div>
+
+        </div>
+        <div class="row col-12">
+            <div class="col-6">
+                <label class="control-label"><b>Modalidad </b><label style="color:red">*</label>:</label>
+                <select id="IPModalidad" class="form-select" aria-label="Default select example">
+                </select>
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label class="control-label"><b>Sede </b><label style="color:red">*</label>:</label>
+                <select id="IPSede" class="form-select" aria-label="Default select example">
+                </select>
+                <span class="text-danger"></span>
+            </div>
+
+        </div>
+        <div class="row col-12">
+            <div class="col-6">
+                <label class="control-label"><b>Programa </b><label style="color:red">*</label>:</label>
+                <select id="IPPrograma" class="form-select" aria-label="Default select example">
+                </select>
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label class="control-label"><b>Periodo Academico </b><label style="color:red">*</label>:</label>
+                <input class="form-control" id="IPPeriodoA" placeholder="Ingrese el perido academico" required />
+                <span class="text-danger"></span>
+            </div>
+
+        </div>
+
+        <div class="row col-12">
+            <div class="col-6">
+                <label class="control-label"><b>Cedula Aspirante </b><label style="color:red">*</label>:</label>
+                <input class="form-control" id="IPCedulaAspirante" placeholder="Ingrese su cedula" required />
+                <span class="text-danger"></span>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<div class="row col-12" style="padding: 2%;position: relative;top: -30px; display:none" id="PanelInformacionInscripcion">
+    <div class="col-md-4 card p-3" style="width: 100%;">
+        <h2 class="text-center text-info">Informacion de Inscripción</h2>
+        <div class="text-danger"></div>
+        <div class="row col-12" style="padding: 3px;">
+            <div class="col-2">
+                <label class="control-label"><b>Primer Nombre </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-10">
+                <input class="form-control" id="IIPrimerNombre" placeholder="Ingrese el Primer Nombre" required />
+                <span class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row col-12" style="padding: 3px;">
+            <div class="col-2">
+                <label class="control-label"><b>Segundo Nombre </b>:</label>
+            </div>
+            <div class="col-10">
+                <input class="form-control" id="IISegundoNomre" placeholder="Ingrese el Segundo Nombre" required />
+                <span class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row col-12" style="padding: 3px;">
+            <div class="col-2">
+                <label class="control-label"><b>Primer Apellido </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-10">
+                <input class="form-control" id="IIPrimerApellido" placeholder="Ingrese el Primer Apellido" required />
+                <span class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row col-12" style="padding: 3px;">
+            <div class="col-2">
+                <label class="control-label"><b>Segundo Apellido </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-10">
+                <input class="form-control" id="IISegundoApellido" placeholder="Ingrese el Segundo Apellido" required />
+                <span class="text-danger"></span>
+            </div>
+        </div>
+
+        <label style="position: relative;top: 16px;">Fecha y Lugar de nacimiento</label>
+        <hr style="height: 3px;"></hr>
+
+        <div class="row col-12" style="padding: 3px;">
+            <div class="col-2">
+                <label class="control-label"><b>Fecha nacimiento </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-4">
+                <input type="date" class="form-control form-control-sm" id="fr_fechadenacimiento" required placeholder="Ej: 04-08-2020 - 02:00 PM" autocomplete="off">
+            </div>
+           
+            <div class="col-2">
+                <label class="control-label"><b>Pais </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-4">
+                <select id="IIPais" class="form-select" aria-label="Default select example" onchange="ConsultarDepartametos(this.value)">
+                </select>
+            </div>
+            
+        </div>
+
+        <div class="row col-12" style="padding: 3px;">
+            <div class="col-2">
+                <label class="control-label"><b>Departamento </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-4">
+                <select id="IIDepartamento" class="form-select" aria-label="Default select example" onchange="ConsultarCiudades(this.value)">
+                </select>
+            </div>
+
+            <div class="col-2">
+                <label class="control-label"><b>Ciudad </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-4">
+                <select id="IICiudad" class="form-select" aria-label="Default select example">
+                </select>
+            </div>
+
+        </div>
+
+
+        <div class="row col-12" style="padding: 3px;">
+            <div class="col-2">
+                <label class="control-label"><b>Grupo Sanguíneo </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-4">
+                <select id="IIGrupoG" class="form-select" aria-label="Default select example">
+                </select>
+            </div>
+
+            <div class="col-2">
+                <label class="control-label"><b>Tipo de Identificacion </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-4">
+                <select id="IITipoIdent" class="form-select" aria-label="Default select example">
+                </select>
+            </div>
+
+        </div>
+
+
+        <div class="row col-12" style="padding: 3px;">
+            <div class="col-2">
+                <label class="control-label"><b>Numero de Identificacion </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-4">
+                <input class="form-control" id="IIidentificationNumber" placeholder="Ingrese el numero de identificacion" required />
+                <span class="text-danger"></span>
+            </div>
+
+            <div class="col-2">
+                <label class="control-label"><b>Fecha de expedicion </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-4">
+                <input type="date" class="form-control form-control-sm" id="fr_fechadeExpedicion" required placeholder="Ej: 04-08-2020 - 02:00 PM" autocomplete="off">
+            </div>
+
+        </div>
+
+
+        <div class="row col-12" style="padding: 3px;">
+
+            <div class="col-2">
+                <label class="control-label"><b>Ciudad de expedición </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-4">
+                <select id="IICiudadExpedicion" class="form-select" aria-label="Default select example">
+                </select>
+            </div>
+
+
+            <div class="col-2">
+                <label class="control-label"><b>Sexo </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-4">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="IIMusculino" value="option1">
+                    <label class="form-check-label" for="IIMusculino">Musculino</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="IIFemenino" value="option2">
+                    <label class="form-check-label" for="IIFemenino">Femenino</label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row col-12" style="padding: 3px;">
+            <div class="col-2">
+                <label class="control-label"><b>Estado Civil </b><label style="color:red">*</label>:</label>
+            </div>
+            <div class="col-6">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="IISoltero" value="option1">
+                    <label class="form-check-label" for="IISoltero">Soltero</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="IICasado" value="option2">
+                    <label class="form-check-label" for="IICasado">Casado</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="IIUnionLibre" value="option3">
+                    <label class="form-check-label" for="IIUnionLibre">Union Libre</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="IIViudo" value="option3">
+                    <label class="form-check-label" for="IIViudo">Viudo</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="IISeparado" value="option3">
+                    <label class="form-check-label" for="IISeparado">Separado (a)</label>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</div>
+
+<script src="~/js/InscripcionPersonal.js"></script>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+

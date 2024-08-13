@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|c:\\users\\yefferson m. v\\onedrive\\escritorio\\insepet\\desarrollador\\desarrollador\\comandossql\\comandosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|solutionrelative:desarrollador\\comandossql\\comandosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|c:\\users\\yefferson m. v\\onedrive\\escritorio\\insepet\\desarrollador\\desarrollador\\controllers\\aspirantesinscritoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|solutionrelative:desarrollador\\controllers\\aspirantesinscritoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|c:\\users\\yefferson m. v\\onedrive\\escritorio\\insepet\\desarrollador\\desarrollador\\controllers\\informacioninscriocionpersonalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|solutionrelative:desarrollador\\controllers\\informacioninscriocionpersonalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|c:\\users\\yefferson m. v\\onedrive\\escritorio\\insepet\\desarrollador\\desarrollador\\wwwroot\\js\\aspirantesinscritos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|solutionrelative:desarrollador\\wwwroot\\js\\aspirantesinscritos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|c:\\users\\yefferson m. v\\onedrive\\escritorio\\insepet\\desarrollador\\desarrollador\\views\\aspirantesinscritos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|solutionrelative:desarrollador\\views\\aspirantesinscritos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|c:\\users\\yefferson m. v\\onedrive\\escritorio\\insepet\\desarrollador\\desarrollador\\wwwroot\\js\\inscripcionpersonal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|solutionrelative:desarrollador\\wwwroot\\js\\inscripcionpersonal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|c:\\users\\yefferson m. v\\onedrive\\escritorio\\insepet\\desarrollador\\desarrollador\\views\\informacioninscriocionpersonal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87A38409-F81F-4D03-BAD2-412BE73CA975}|Desarrollador\\Desarrollador.csproj|solutionrelative:desarrollador\\views\\informacioninscriocionpersonal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\Views\\InformacionInscriocionPersonal\\Index.cshtml",
+              "RelativeDocumentMoniker": "Desarrollador\\Views\\InformacionInscriocionPersonal\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\Views\\InformacionInscriocionPersonal\\Index.cshtml",
+              "RelativeToolTip": "Desarrollador\\Views\\InformacionInscriocionPersonal\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T17:36:12.648Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InscripcionPersonal.js",
+              "DocumentMoniker": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\wwwroot\\js\\InscripcionPersonal.js",
+              "RelativeDocumentMoniker": "Desarrollador\\wwwroot\\js\\InscripcionPersonal.js",
+              "ToolTip": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\wwwroot\\js\\InscripcionPersonal.js",
+              "RelativeToolTip": "Desarrollador\\wwwroot\\js\\InscripcionPersonal.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-30T03:49:29.467Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InformacionInscriocionPersonalController.cs",
+              "DocumentMoniker": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\Controllers\\InformacionInscriocionPersonalController.cs",
+              "RelativeDocumentMoniker": "Desarrollador\\Controllers\\InformacionInscriocionPersonalController.cs",
+              "ToolTip": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\Controllers\\InformacionInscriocionPersonalController.cs",
+              "RelativeToolTip": "Desarrollador\\Controllers\\InformacionInscriocionPersonalController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAE4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T17:35:59.968Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AspirantesInscritos.js",
+              "DocumentMoniker": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\wwwroot\\js\\AspirantesInscritos.js",
+              "RelativeDocumentMoniker": "Desarrollador\\wwwroot\\js\\AspirantesInscritos.js",
+              "ToolTip": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\wwwroot\\js\\AspirantesInscritos.js",
+              "RelativeToolTip": "Desarrollador\\wwwroot\\js\\AspirantesInscritos.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-03T05:01:42.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\Views\\AspirantesInscritos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Desarrollador\\Views\\AspirantesInscritos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\Views\\AspirantesInscritos\\Index.cshtml",
+              "RelativeToolTip": "Desarrollador\\Views\\AspirantesInscritos\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T04:59:25.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AspirantesInscritosController.cs",
+              "DocumentMoniker": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\Controllers\\AspirantesInscritosController.cs",
+              "RelativeDocumentMoniker": "Desarrollador\\Controllers\\AspirantesInscritosController.cs",
+              "ToolTip": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\Controllers\\AspirantesInscritosController.cs",
+              "RelativeToolTip": "Desarrollador\\Controllers\\AspirantesInscritosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T04:59:13.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComandoSql.cs",
+              "DocumentMoniker": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\ComandosSql\\ComandoSql.cs",
+              "RelativeDocumentMoniker": "Desarrollador\\ComandosSql\\ComandoSql.cs",
+              "ToolTip": "C:\\Users\\Yefferson M. V\\OneDrive\\Escritorio\\Insepet\\Desarrollador\\Desarrollador\\ComandosSql\\ComandoSql.cs",
+              "RelativeToolTip": "Desarrollador\\ComandosSql\\ComandoSql.cs",
+              "ViewState": "AQIAANIBAAAAAAAAAAAAAOABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T04:03:28.256Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

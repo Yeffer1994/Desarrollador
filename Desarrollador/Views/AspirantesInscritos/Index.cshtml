@@ -1,0 +1,64 @@
+﻿@{
+    Layout = null;
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<script src='https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js'></script>
+
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/fixedheader/3.1.6/js/dataTables.fixedHeader.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+<link rel="" href="https://cdn.datatables.net/fixedheader/3.1.6/css/fixedHeader.dataTables.min.css">
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+
+<center><h3><label>Aspirantes Inscritos</label></h3></center>
+
+<button id="export" onclick="Export();" class="btn btn-outline-success">Export to excel</button>
+<button id="export" onclick="generate();" class="btn btn-outline-danger">Export to PDF</button>
+
+<br />
+<br />
+
+<style>
+    /*estilos para la tabla*/
+    table th {
+        background-color: olive;
+        color: white;
+    }
+</style>
+
+<title>Estudiantes Inscritos</title>
+
+<center><h3><label style="color:red; display:none" id="LabelinfoEstudiantes">No hay estudiantes inscritos</label></h3></center>
+
+<table id="example" data-excel-name="A very important table">
+    <thead>
+            <tr>
+                <th>Estado</th>
+                <th>Sede</th>
+                <th>Programa Academico</th>
+                <th>Periodo academico</th>
+                <th>Tipo de Documentacion</th>
+                <th>Numero de Documento</th>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+            </tr>
+    </thead>
+    <tbody id="AspirantesInscritos">
+    </tbody>
+</table>
+
+<script src="~/js/AspirantesInscritos.js"></script>
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<script src="~/js/table2excel.js"></script>
+<script src="~/js/html2pdf.bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.6/jspdf.plugin.autotable.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/fixedheader/3.1.6/js/dataTables.fixedHeader.min.js"></script>
+
